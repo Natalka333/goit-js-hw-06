@@ -7,9 +7,9 @@ const spanEl = document.querySelector('#text');
 
 // 2 спроба
 
-// inputEl.addEventListener('input', changeSize);
+inputEl.addEventListener('input', changeSize);
 
-// function changeSize() {
-//   spanEl.style.fontSize = inputEl.value + 'px';
-// }
-// changeSize();
+function changeSize() {
+  spanEl.style.fontSize = inputEl.value + 'px';
+}
+changeSize();

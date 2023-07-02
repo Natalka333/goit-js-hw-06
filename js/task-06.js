@@ -5,16 +5,16 @@ const inputLeng = Number(textEl.dataset.length);
 
 textEl.addEventListener('blur', validationInput);
 
-// function validationInput(value) {
-//   const updateText = textEl.value.trim();
-//   if (updateText.length === inputLeng) {
-//     textEl.classList.remove('invalid');
-//     textEl.classList.add('valid');
-//   } else {
-//     textEl.classList.remove('valid');
-//     textEl.classList.add('invalid');
-//   }
-// }
+function validationInput(value) {
+  const updateText = textEl.value.trim();
+  if (updateText.length === inputLeng) {
+    textEl.classList.remove('invalid');
+    textEl.classList.add('valid');
+  } else {
+    textEl.classList.remove('valid');
+    textEl.classList.add('invalid');
+  }
+}
 // прибирає пробіли на початку і в кінці trim();
 // 2 спосіб
 
