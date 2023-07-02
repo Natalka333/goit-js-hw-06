@@ -1,5 +1,15 @@
 const inputEl = document.querySelector('#font-size-control');
 const spanEl = document.querySelector('#text');
-spanEl.style.fonSize = '16';
 
-inputEl.addEventListener('input', event => {});
+// inputEl.addEventListener('input', function () {
+//   spanEl.style.fontSize = inputEl.value + 'px';
+// });
+
+// 2 спроба
+
+// inputEl.addEventListener('input', changeSize);
+
+// function changeSize() {
+//   spanEl.style.fontSize = inputEl.value + 'px';
+// }
+// changeSize();
