@@ -19,8 +19,6 @@ const marcup = images
 	<img  src='${url}' alt='${alt}' class='picture'></li>`
   )
   .join('');
-console.dir(marcup);
 
 const ul = document.querySelector('.gallery');
 ul.insertAdjacentHTML('beforeend', marcup);
-console.log(ul);
